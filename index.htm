@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Keeper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <section class="main">
+        <h1 class="main__heading">People entered:</h1>
+        <h1 class="main__counter" id="main__counter">0</h1>
+        <div class="main__button-list">
+            <button class="main__button-list-element list-element__1" onclick="increment()">INCREMENT</button>   
+            <button class="main__button-list-element list-element__2" onclick="save()">SAVE</button>
+        </div>
+        <div class="main__saved-list" id="main__saved-list">Previous Entries:</div>
+        <div class="main__saved-list" id="main__saved-list-data"></div>
+    </section>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

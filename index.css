@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+      --ff-roboto : 'Roboto', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: #F2E1C1; */
+    background: #2C2E43;
+  }
+  
+  .main {
+    border: 3px solid black;
+    padding: 5em;
+    border-radius: 5px;
+    background: #EEEEEE;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 70%;
+    
+  }
+
+  @media (min-width: 800px) {
+
+    .main {
+      max-width: 25%;
+    }
+    
+  }
+
+  button {
+    display: block;
+  }
+  
+  .main__heading {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-family: var(--ff-roboto);
+    text-align: center;
+  }
+  
+  .main__counter {
+    text-align: center;
+    font-size: 2.25em;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    font-family: var(--ff-roboto);
+    font-weight: bold;
+    
+  }
+  
+  .main__button-list {
+    font-family: var(--ff-roboto);
+    font-weight: bold;
+  }
+  
+  .main__button-list-element {
+    font-size: 1.01rem;
+    margin: 0.5em auto 0.5em auto;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  
+  .main__button-list-element:nth-child(1) {
+    background: #8E2657;
+    color: #FFFFFF;
+    padding: 0.35em 0.5em 0.35em 0.5em;
+    border-radius: 4px;
+    min-width: 100%;
+  }
+  
+  .main__button-list-element:nth-child(2) {
+    background: #055052;
+    color: #FFFFFF;
+    padding: 0.35em 0.5em 0.35em 0.5em;
+    border-radius: 4px;
+    /* width: 110px; */
+    min-width: 100%;
+  }
+  
+  .main__button-link {
+    background-color: none;
+    border: none;
+  }
+  
+  .main__saved-list {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1.5em;
+    font-family: var(--ff-roboto);
+    font-size: 20px;
+  }
+
+  .main__saved-list-data {
+    font-weight: bold;
+    max-width: 75%;
+  }
+  
+
+  .list-element__1 {
+    transition: background 200ms;
+  }
+  .list-element__1:hover {
+    background: #cc317a;
+    cursor: pointer;
+  }
+  
+  .list-element__2 {
+    transition: background 200ms;
+  }
+  .list-element__2:hover {
+    background: #08898c;
+    cursor: pointer;
+  }
+  
